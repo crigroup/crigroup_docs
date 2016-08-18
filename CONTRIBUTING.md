@@ -29,6 +29,28 @@ We use the [Github Flow](https://guides.github.com/introduction/flow/) workflow.
 * Open pull request 
 * Now, we can merge it into the `master` branch.
 
+### Branch Naming
+**Guideline:** <http://stackoverflow.com/a/6065944>
+
+Basically, the idea is to let others know what is happening in the branch. So, please **avoid** branch with names that don't provide any insight. e.g:
+```
+myname
+myname-fix
+myname2
+``` 
+Good branch names:
+```
+wip/robot-recovery
+feat/pose-estimation
+bug/planning-crash
+junk/camera-calibration
+``` 
+For the ROS packages, we shall use the `$ROS_DISTRO-devel` convention for the **master** branch. e.g:
+```
+indigo-devel
+kinetic-devel
+``` 
+
 ### Pull Requests
 
 * Include screenshots and animated GIFs in your pull request whenever possible.
