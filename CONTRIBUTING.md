@@ -55,8 +55,8 @@ We use the [Github Flow](https://guides.github.com/introduction/flow/) workflow.
     * :arrow_up: `:arrow_up:` when upgrading dependencies
     * :arrow_down: `:arrow_down:` when downgrading dependencies
 
-### ROS Packages Styleguide
-TODO
+### ROS Best Practices
+This is a [very good read](https://github.com/ethz-asl/ros_best_practices/wiki). Nothing to add to it.
 
 ### Python Styleguide
 The main styleguide for coding in Python is [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#naming-conventions). These are the things to keep in mind:
