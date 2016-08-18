@@ -59,14 +59,27 @@ We use the [Github Flow](https://guides.github.com/introduction/flow/) workflow.
 This is a [very good read](https://github.com/ethz-asl/ros_best_practices/wiki). Nothing to add to it.
 
 ### Python Styleguide
-The main styleguide for coding in Python is [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#naming-conventions). These are the things to keep in mind:
+The main styleguide for coding in Python is [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). These are the things to keep in mind:
 
 * **Indentation**: Use 2 spaces per indentation level. This is different from PEP 8 but we prefer this way so that the code can be better read in Github.
 * **Naming Style**: There are a lot of different naming styles. We follow `lower_case_with_underscores` style.
 * **Tabs or Spaces?**: Use **spaces** as indentation method.
+* **Imports**: Put the *Imports* on separate lines. Use absolute imports, as they are usually more readable. **Avoid importing everything from a module**.
+```{python}
+# Good practice:
+import openravepy as orpy
+env = orpy.Environment()
+# Horrible practice:
+from openravepy import *
+env = Environment()
+``` 
 
 #### Example
 ```{python}
+import mypkg.sibling
+from mypkg import sibling
+from mypkg.sibling import example
+
 class Action(object):
   def __init__(self, identifier, title, properties):
     self.category = 'Action'
