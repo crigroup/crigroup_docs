@@ -15,6 +15,8 @@ These are all the packages currently being maintained:
 * [`criros`](https://github.com/crigroup/criros): ROS utilities used by the CRI group
 * [`ensenso`](https://github.com/crigroup/ensenso): Code for using Ensenso camera
 * [`netft`](https://github.com/fsuarez6/netft): ROS metapackage for the ATI NET/FT box + ATI F/T sensor.
+* [`object_reconstruction`](https://github.com/crigroup/object_reconstruction): 3D reconstruction of objects used by the CRI Group
+* [`openrave_catkin`](https://github.com/crigroup/openrave_catkin): Utilities for building OpenRAVE plugins in a Catkin workspace.
 * [`optitrack`](https://github.com/crigroup/optitrack): ROS package for working with the NaturalPoint Optitrack motion capture setup
 * [`robotiq`](https://github.com/crigroup/robotiq): ROS Metapackage for Robotiq 85 Gripper, Modbus TCP/IP
 
