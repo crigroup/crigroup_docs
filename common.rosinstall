@@ -1,0 +1,15 @@
+# Maintained by CRI group
+- git: {local-name: bcap,                   uri: 'https://github.com/fsuarez6/bcap.git',                  version: master}
+- git: {local-name: behavior_trees,         uri: 'https://github.com/fsuarez6/behavior_trees.git',        version: master}
+- git: {local-name: cribags,                uri: 'https://github.com/crigroup/cribags.git',               version: master}
+- git: {local-name: criros,                 uri: 'https://github.com/crigroup/criros.git',                version: master}
+- git: {local-name: ensenso,                uri: 'https://github.com/crigroup/ensenso.git',               version: kinetic-devel}
+- git: {local-name: netft,                  uri: 'https://github.com/fsuarez6/netft.git',                 version: master}
+- git: {local-name: object_reconstruction,  uri: 'https://github.com/crigroup/object_reconstruction.git', version: master}
+- git: {local-name: openrave_catkin,        uri: 'https://github.com/crigroup/openrave_catkin.git',       version: master}
+- git: {local-name: optitrack,              uri: 'https://github.com/crigroup/optitrack.git',             version: master}
+- git: {local-name: robotiq,                uri: 'https://github.com/crigroup/robotiq.git',               version: master}
+
+# External
+- git: {local-name: aruco_ros,              uri: 'https://github.com/pal-robotics/aruco_ros.git',         version: indigo-devel}
+- git: {local-name: ros_numpy,              uri: 'https://github.com/eric-wieser/ros_numpy.git',          version: master}
