@@ -7,7 +7,7 @@
 - git: {local-name: netft,                  uri: 'https://github.com/fsuarez6/netft.git',                 version: master}
 - git: {local-name: object_reconstruction,  uri: 'https://github.com/crigroup/object_reconstruction.git', version: master}
 - git: {local-name: openrave_catkin,        uri: 'https://github.com/crigroup/openrave_catkin.git',       version: master}
-- git: {local-name: optitrack,              uri: 'https://github.com/crigroup/optitrack.git',             version: master}
+- git: {local-name: optitrack,              uri: 'https://github.com/crigroup/optitrack.git',             version: hydro-devel}
 - git: {local-name: robotiq,                uri: 'https://github.com/crigroup/robotiq.git',               version: master}
 
 # External
