@@ -89,7 +89,7 @@ The main styleguide for coding in Python is [PEP 8 -- Style Guide for Python Cod
 * **Naming Style**: There are a lot of different naming styles. We follow `lower_case_with_underscores` style.
 * **Tabs or Spaces?**: Use **spaces** as indentation method.
 * **Imports**: Put the *Imports* on separate lines. Use absolute imports, as they are usually more readable. **Avoid importing everything from a module**.
-```{python}
+```python
 # Good practice:
 import openravepy as orpy
 env = orpy.Environment()
@@ -99,7 +99,7 @@ env = Environment()
 ``` 
 
 #### Example
-```{python}
+```python
 import mypkg.sibling
 from mypkg import sibling
 from mypkg.sibling import example
@@ -129,7 +129,7 @@ The main styleguide for coding in CPP is the [ROS C++ Style Guide](http://wiki.r
 
 #### Example
 **Filename:** `rc8_ros_driver.cpp`
-```{c++}
+```c++
 class RC8RosDriver : public hardware_interface::RobotHW
 {
 public:
@@ -155,7 +155,7 @@ private:
 * Document all your classes and methods in your libraries so that others can understand what is going on.
 
 #### Python example
-```{python}
+```python
 class JointControllerBase(object):
   """
   Base class for the Joint Position Controllers. It subscribes to the C{joint_states} topic by default.
@@ -182,7 +182,7 @@ class JointControllerBase(object):
 Full example [here](https://github.com/quangounet/denso_common/blob/master/denso_control/src/denso_control/controllers.py).
 
 #### CPP example
-```{c++}
+```c++
 namespace denso_control
 {
 /**
