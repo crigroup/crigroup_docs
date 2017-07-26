@@ -1,3 +1,2 @@
-- git: {local-name: bcap,                   uri: 'https://github.com/fsuarez6/bcap.git',                  version: master}
 - git: {local-name: criros,                 uri: 'https://github.com/crigroup/criros.git',                version: master}
 - git: {local-name: openrave_catkin,        uri: 'https://github.com/crigroup/openrave_catkin.git',       version: master}
